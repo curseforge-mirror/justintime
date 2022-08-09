@@ -25,7 +25,7 @@ jobs:
     - name: Run Main Script
       run: python main.py
       env:
-        ADDON_NAME: JustInTime
+        ADDON_NAME: justintime
 
     - name: Get current time
       uses: srfrnk/current-time@master
